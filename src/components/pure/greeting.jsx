@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 // rcc para generar componente (elegimos la que tiene propTypes)
+// rfc para generar componente funcional (elegimos la que tiene propTypes)
+
+
 class Greeting extends Component {
 
     constructor(props){

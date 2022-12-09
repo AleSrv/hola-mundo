@@ -1,4 +1,6 @@
 // rfc para generar componente funcional (elegimos la que tiene propTypes)
+// rcc para generar componente (elegimos la que tiene propTypes)
+
 
 import React, {useState} from 'react';
 import PropTypes from 'prop-types';
