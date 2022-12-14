@@ -1,6 +1,6 @@
 /* NOS PERMITE TRABAJAR CON EL ESTADO DE UN COMP DE ORDER SUPERIOR 
 /  Y PASAR A LOS COMPONENTES INFERIORES
-*Ejemplo Hooks
+*  Ejemplo Hooks
 * - useSate()
 * - useContext()
 */

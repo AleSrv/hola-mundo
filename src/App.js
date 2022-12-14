@@ -1,7 +1,9 @@
-// >> create-react-app hola-mundo
-// GENERA:
-// UNA CARPETA -> cd hola-mundo
-// UN SCRIPT START SERVIDOR (localhost:3000) -> npm start 
+// !>> create-react-app hola-mundo
+// !GENERA:
+// !UNA CARPETA -> cd hola-mundo
+// !UN SCRIPT START SERVIDOR (localhost:3000) -> npm start 
+// ! Instalar Bootstrap -> npm i bootstrap / Luego ir a index.js e importar (debe ir arriba de Sass)
+// ! Instalar SASS - npm i --save node--sass (--save para que se instale en dependencia Json)
 
 import logo from './logo.svg';
 import './App.css';
@@ -12,6 +14,7 @@ import Ejemplo1 from './hooks/Ejemplo1';
 import Ejemplo2 from './hooks/Ejemplo2';
 import MiComponenteConContexto from './hooks/Ejemplo3'
 import Ejemplo4 from './hooks/Ejemplo4';
+import GreetingStyled from './components/pure/forms/greetingStyled';
 
 function App() {
   return (
@@ -28,12 +31,13 @@ function App() {
         {/* <Ejemplo1></Ejemplo1> */}
         {/* <Ejemplo2></Ejemplo2> */}
         {/* <MiComponenteConContexto></MiComponenteConContexto> */}
-        <Ejemplo4 nombre='Ale'>
         {/* Todo lo que hay aqui dentro es props.children  */}
+        {/* <Ejemplo4 nombre='Ale'>
           <h3>
             Contenido del props.children
           </h3>
-        </Ejemplo4>
+        </Ejemplo4> */}
+        <GreetingStyled name='Alex'></GreetingStyled>
       </header>
     </div>
   );
